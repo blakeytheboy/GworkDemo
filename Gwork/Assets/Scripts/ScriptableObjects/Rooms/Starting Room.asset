@@ -12,13 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2af2ca47ebb1cd54bb791b947748799d, type: 3}
   m_Name: Starting Room
   m_EditorClassIdentifier: 
-  description: "You wake up in an empty forest, the world is quiet. When you\u2019re
-    expecting to be met with the wildlife, you\u2019re met with nothing.\r\n\r\nLooking
-    around you notice a dimly lit entrance that appears to descend beneath the earth.\r"
+  description: starting room desc.
   roomName: starting room
   exits:
   - keyString: north
-    exitDescription: Taking a closer look at the entrance you peer down a staircase
-      that swallows all the surrounding light in the area. It is impossible to see
-      what is at the bottom, but something about it beckons you in.
+    exitDescription: starting room exit
     valueRoom: {fileID: 11400000, guid: 0c41d0bdbcdfdb64ab1ffb834393679e, type: 2}
+  interactbleObjectsInRoom: []

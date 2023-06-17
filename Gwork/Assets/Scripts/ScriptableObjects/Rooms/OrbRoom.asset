@@ -12,11 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2af2ca47ebb1cd54bb791b947748799d, type: 3}
   m_Name: OrbRoom
   m_EditorClassIdentifier: 
-  description: "Creeping down the staircase you eventually reach the bottom. The
-    walls appear to be made out of chiselled stone, guiding your eyes directly at
-    an old wooden door.\r"
+  description: orb room des
   roomName: orb room
   exits:
   - keyString: south
-    exitDescription: You backtrack up the stairs back into the forest.
+    exitDescription: orb room exit
     valueRoom: {fileID: 11400000, guid: 9f232affdf95ac949868018df396cc47, type: 2}
+  interactbleObjectsInRoom: []
