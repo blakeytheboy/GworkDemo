@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af2ca47ebb1cd54bb791b947748799d, type: 3}
+  m_Name: OrbRoom
+  m_EditorClassIdentifier: 
+  description: "Creeping down the staircase you eventually reach the bottom. The
+    walls appear to be made out of chiselled stone, guiding your eyes directly at
+    an old wooden door.\r"
+  roomName: orb room
+  exits:
+  - keyString: south
+    exitDescription: You backtrack up the stairs back into the forest.
+    valueRoom: {fileID: 11400000, guid: 9f232affdf95ac949868018df396cc47, type: 2}
