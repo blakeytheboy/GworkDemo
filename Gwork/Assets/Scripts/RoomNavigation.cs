@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class RoomNavigation : MonoBehaviour
 {
+
     public Room currentRoom;
+
 
     Dictionary<string, Room> exitDictionary = new Dictionary<string, Room>();
     GameController controller;
@@ -16,7 +18,7 @@ public class RoomNavigation : MonoBehaviour
 
     public void UnpackExitsInRoom()
     {
-        for (int i = 0; i < currentRoom.exits.Length; i++) 
+        for (int i = 0; i < currentRoom.exits.Length; i++)
         {
             exitDictionary.Add(currentRoom.exits[i].keyString, currentRoom.exits[i].valueRoom);
             controller.interactionDescriptionsInRoom.Add(currentRoom.exits[i].exitDescription);
@@ -35,6 +37,7 @@ public class RoomNavigation : MonoBehaviour
         {
             controller.LogStringWithReturn("There is no path to the " + directionNoun);
         }
+
     }
 
     public void ClearExits()

@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
-public class TextInput : MonoBehaviour
+public class TextInput : MonoBehaviour 
 {
     public TMP_InputField inputField;
 
@@ -10,33 +11,36 @@ public class TextInput : MonoBehaviour
 
     void Awake()
     {
-        controller = GetComponent<GameController>();
-        inputField.onEndEdit.AddListener(AcceptStringInput);
+        controller = GetComponent<GameController> ();
+        inputField.onEndEdit.AddListener (AcceptStringInput);
     }
+
     void AcceptStringInput(string userInput)
     {
-        userInput = userInput.ToLower();
-        controller.LogStringWithReturn(userInput);
+        userInput = userInput.ToLower ();
+        controller.LogStringWithReturn (userInput);
 
         char[] delimiterCharacters = { ' ' };
-        string[] seperatedInputWords = userInput.Split(delimiterCharacters);
+        string[] separatedInputWords = userInput.Split (delimiterCharacters);
 
-        for (int i = 0; i < controller.inputActions.Length; i++)
+        for (int i = 0; i < controller.inputActions.Length; i++) 
         {
-            InputAction inputAction = controller.inputActions[i];
-            if (inputAction.keyWord == seperatedInputWords[0])
+            InputAction inputAction = controller.inputActions [i];
+            if (inputAction.keyWord == separatedInputWords [0]) 
             {
-                inputAction.RespondToInput(controller, seperatedInputWords);
+                inputAction.RespondToInput (controller, separatedInputWords);
             }
         }
 
-        InputComplete();
+        InputComplete ();
+
     }
 
     void InputComplete()
     {
-        controller.DisplayLoggedText();
-        inputField.ActivateInputField();
+        controller.DisplayLoggedText ();
+        inputField.ActivateInputField ();
         inputField.text = null;
     }
+
 }

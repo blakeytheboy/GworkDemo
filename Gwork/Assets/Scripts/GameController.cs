@@ -5,15 +5,16 @@ using TMPro;
 
 public class GameController : MonoBehaviour
 {
+
     public TextMeshProUGUI displayText;
     public InputAction[] inputActions;
 
     [HideInInspector] public RoomNavigation roomNavigation;
-    //everything the player can interact with
-    [HideInInspector] public List<string> interactionDescriptionsInRoom = new List<string> ();
+    [HideInInspector] public List<string> interactionDescriptionsInRoom = new List<string>();
 
     List<string> actionLog = new List<string>();
 
+    // Use this for initialization
     void Awake()
     {
         roomNavigation = GetComponent<RoomNavigation>();
@@ -31,6 +32,7 @@ public class GameController : MonoBehaviour
 
         displayText.text = logAsText;
     }
+
     public void DisplayRoomText()
     {
         ClearCollectionsForNewRoom();
@@ -39,9 +41,9 @@ public class GameController : MonoBehaviour
 
         string joinedInteractionDescriptions = string.Join("\n", interactionDescriptionsInRoom.ToArray());
 
-        string combinedtext = roomNavigation.currentRoom.description + "\n" + joinedInteractionDescriptions;
+        string combinedText = roomNavigation.currentRoom.description + "\n" + joinedInteractionDescriptions;
 
-        LogStringWithReturn (combinedtext);
+        LogStringWithReturn(combinedText);
     }
 
     void UnpackRoom()
@@ -60,8 +62,9 @@ public class GameController : MonoBehaviour
         actionLog.Add(stringToAdd + "\n");
     }
 
+    // Update is called once per frame
     void Update()
     {
-        
+
     }
 }
