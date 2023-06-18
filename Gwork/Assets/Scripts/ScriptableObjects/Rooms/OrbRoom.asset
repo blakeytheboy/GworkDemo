@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2af2ca47ebb1cd54bb791b947748799d, type: 3}
   m_Name: OrbRoom
   m_EditorClassIdentifier: 
-  description: orb room des
+  description: You are in a dusty closet.
   roomName: orb room
   exits:
   - keyString: south
-    exitDescription: orb room exit
+    exitDescription: There is a single door to the south.
     valueRoom: {fileID: 11400000, guid: 9f232affdf95ac949868018df396cc47, type: 2}
-  interactbleObjectsInRoom: []
+  interactableObjectsInRoom: []

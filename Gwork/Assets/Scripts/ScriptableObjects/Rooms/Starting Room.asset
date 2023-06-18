@@ -12,11 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2af2ca47ebb1cd54bb791b947748799d, type: 3}
   m_Name: Starting Room
   m_EditorClassIdentifier: 
-  description: starting room desc.
+  description: You are in a large open field, the silence is deafening.
   roomName: starting room
   exits:
   - keyString: north
-    exitDescription: starting room exit
+    exitDescription: There appears to be a dark doorway that decends deep below the
+      Earth to the north.
     valueRoom: {fileID: 11400000, guid: 0c41d0bdbcdfdb64ab1ffb834393679e, type: 2}
   interactableObjectsInRoom:
   - {fileID: 11400000, guid: 614be8e1c4ca1404ebc549c17c39c4ea, type: 2}
