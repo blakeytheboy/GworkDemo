@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2af2ca47ebb1cd54bb791b947748799d, type: 3}
-  m_Name: Starting Room
+  m_Name: OrbRoomOpen
   m_EditorClassIdentifier: 
-  description: starting room desc.
-  roomName: starting room
+  description: suddenly there is a shower of dust, the door to the entrance slams
+    shut behind you
+  roomName: orb room
   exits:
-  - keyString: north
-    exitDescription: starting room exit
-    valueRoom: {fileID: 11400000, guid: 0c41d0bdbcdfdb64ab1ffb834393679e, type: 2}
-  interactableObjectsInRoom:
-  - {fileID: 11400000, guid: 614be8e1c4ca1404ebc549c17c39c4ea, type: 2}
+  - keyString: west
+    exitDescription: A secret door opens to the west
+    valueRoom: {fileID: 11400000, guid: b443632d09af77d408a628ae77a5b777, type: 2}
+  interactableObjectsInRoom: []

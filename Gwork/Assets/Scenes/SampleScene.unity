@@ -370,7 +370,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -217}
+  m_AnchoredPosition: {x: 0, y: -203}
   m_SizeDelta: {x: 597.88, y: 43.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &122512913
@@ -557,6 +557,10 @@ MonoBehaviour:
   displayText: {fileID: 1433626056}
   inputActions:
   - {fileID: 11400000, guid: e1ea222ebdf57e942a8dc1bfa23947d8, type: 2}
+  - {fileID: 11400000, guid: 8a889fe39e523cc40a172ce81f2418c2, type: 2}
+  - {fileID: 11400000, guid: d0531796625a1d744b60bbead9724798, type: 2}
+  - {fileID: 11400000, guid: ffb30334148fbd0479d28bb0645510ee, type: 2}
+  - {fileID: 11400000, guid: 5668a33a018333440a054d8845b83c90, type: 2}
   roomNavigation: {fileID: 0}
   interactionDescriptionsInRoom: []
   interactableItems: {fileID: 0}
@@ -600,6 +604,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc2f5a1beb5a25f42a334dc649d3c7c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  usableItemList:
+  - {fileID: 11400000, guid: 614be8e1c4ca1404ebc549c17c39c4ea, type: 2}
   nounsInRoom: []
 --- !u!1 &519420028
 GameObject:
@@ -1039,7 +1045,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -319.33194, y: -374.3587, z: -323.00378, w: 0}
+  m_margin: {x: -283.58026, y: -374.3587, z: -285.627, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
