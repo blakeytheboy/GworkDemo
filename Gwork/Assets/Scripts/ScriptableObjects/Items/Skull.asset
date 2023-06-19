@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: Skull
   m_EditorClassIdentifier: 
   noun: skull
-  description: a weathered human skull lies in the corner
+  description: A weathered human skull lies at the foot of the tree.
   interactions:
   - inputAction: {fileID: 11400000, guid: 8a889fe39e523cc40a172ce81f2418c2, type: 2}
-    textResponse: the skull is blackened and charred
+    textResponse: The skull is blackened and charred. Gross
     actionResponse: {fileID: 0}
   - inputAction: {fileID: 11400000, guid: d0531796625a1d744b60bbead9724798, type: 2}
-    textResponse: you take the skull
+    textResponse: You carefully place the skull into your bag.
     actionResponse: {fileID: 0}
   - inputAction: {fileID: 11400000, guid: 5668a33a018333440a054d8845b83c90, type: 2}
     textResponse: 

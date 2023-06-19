@@ -10,12 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2af2ca47ebb1cd54bb791b947748799d, type: 3}
-  m_Name: OrbRoom
+  m_Name: Tree
   m_EditorClassIdentifier: 
-  description: You are in a dusty closet.
-  roomName: orb room
+  description: You push through the foliage to get to the tree. It's just a tree.
+  roomName: tree
   exits:
-  - keyString: south
-    exitDescription: There is a single door to the south.
+  - keyString: north
+    exitDescription: The path the way you came from is North.
     valueRoom: {fileID: 11400000, guid: 9f232affdf95ac949868018df396cc47, type: 2}
-  interactableObjectsInRoom: []
+  interactableObjectsInRoom:
+  - {fileID: 11400000, guid: 614be8e1c4ca1404ebc549c17c39c4ea, type: 2}
