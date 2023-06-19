@@ -22,5 +22,5 @@ MonoBehaviour:
     textResponse: you take the skull
     actionResponse: {fileID: 0}
   - inputAction: {fileID: 11400000, guid: 5668a33a018333440a054d8845b83c90, type: 2}
-    textResponse: test
+    textResponse: 
     actionResponse: {fileID: 11400000, guid: f90c80abd69bdfd44aba40836c03527c, type: 2}

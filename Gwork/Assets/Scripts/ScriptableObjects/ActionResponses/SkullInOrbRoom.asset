@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: SkullInOrbRoom
   m_EditorClassIdentifier: 
   requiredString: orb room
-  roomToChangeTo: {fileID: 0}
+  roomToChangeTo: {fileID: 11400000, guid: 8e5d31a2074205046ba24bbe7267d90a, type: 2}
