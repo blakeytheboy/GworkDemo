@@ -11,4 +11,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Cowboy.unity
     guid: a78e628bd65ebe141868b9a96c608f0a
+  - enabled: 1
+    path: Assets/Scenes/Gameover.unity
+    guid: 3ceb7f0820265ff468939ae21746d1ab
+  - enabled: 1
+    path: Assets/Scenes/GworkAct2.unity
+    guid: 7aa74b2d4287b0a49b92ed9894515d3d
+  - enabled: 1
+    path: Assets/Scenes/Wizard.unity
+    guid: 29a15b3a3d141bf4198a75092cf18ddf
   m_configObjects: {}

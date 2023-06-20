@@ -1623,11 +1623,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74f5d37b4e5fe18418df264d6f61478f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerMinDamage: 5
-  playerMaxDamage: 10
-  enemyBaseDamage: 5
-  minRoll: 1
-  maxRoll: 20
+  playerBaseDamage: 10
+  enemyBaseDamage: 10
+  MinRoll: 1
+  MaxRoll: 20
+  playerMinMissRoll: 1
+  playerMaxMissRoll: 1
+  enemyMinMissRoll: 1
+  enemyMaxMissRoll: 1
+  playerMinCriticalRoll: 20
+  playerMaxCriticalRoll: 20
+  enemyMinCriticalRoll: 20
+  enemyMaxCriticalRoll: 20
+  enemyDialogues: []
   playerHealth: 100
   enemyHealth: 100
   inputField: {fileID: 1775734804}
