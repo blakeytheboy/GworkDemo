@@ -10,18 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2af2ca47ebb1cd54bb791b947748799d, type: 3}
-  m_Name: Saloon
+  m_Name: Podium
   m_EditorClassIdentifier: 
-  description: Saloon.
-  roomName: saloon
+  description: An old sturdy podium sits before you at the head of the room. It looks
+    like something use to be sitting ontop of it.
+  roomName: podium
   exits:
-  - keyString: east
-    exitDescription: towards puzzle 3 east
-    valueRoom: {fileID: 11400000, guid: b09d6e45f38c5c9418f6aa3f3ff8f22f, type: 2}
-  - keyString: west
-    exitDescription: towards puzzle 2 west
-    valueRoom: {fileID: 11400000, guid: c6e0d34aad08f674ea3243556d392509, type: 2}
   - keyString: south
-    exitDescription: back to puzzle 1 south
+    exitDescription: bookcases and the room entrance are back South.
     valueRoom: {fileID: 11400000, guid: 0c41d0bdbcdfdb64ab1ffb834393679e, type: 2}
   interactableObjectsInRoom: []

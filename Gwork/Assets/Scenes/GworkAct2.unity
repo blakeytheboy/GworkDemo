@@ -430,7 +430,7 @@ MonoBehaviour:
   m_HideSoftKeyboard: 0
   m_CharacterValidation: 0
   m_RegexValue: 
-  m_GlobalPointSize: 20
+  m_GlobalPointSize: 15
   m_CharacterLimit: 0
   m_OnEndEdit:
     m_PersistentCalls:
@@ -519,9 +519,10 @@ GameObject:
   m_Component:
   - component: {fileID: 205798124}
   - component: {fileID: 205798123}
-  - component: {fileID: 205798122}
   - component: {fileID: 205798125}
   - component: {fileID: 205798126}
+  - component: {fileID: 205798127}
+  - component: {fileID: 205798128}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -529,19 +530,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &205798122
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 205798121}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a0a900300db8de24e8f81cacc37ab2aa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentRoom: {fileID: 11400000, guid: 9f232affdf95ac949868018df396cc47, type: 2}
 --- !u!114 &205798123
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -607,6 +595,33 @@ MonoBehaviour:
   usableItemList:
   - {fileID: 11400000, guid: 614be8e1c4ca1404ebc549c17c39c4ea, type: 2}
   nounsInRoom: []
+--- !u!114 &205798127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 205798121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0a900300db8de24e8f81cacc37ab2aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentRoom: {fileID: 11400000, guid: 1f40ec54ba8c4fe4b948850b537e1d4d, type: 2}
+--- !u!114 &205798128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 205798121}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61e856b8981ba0f48b47109afeafdf45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  valueRoom: {fileID: 11400000, guid: f1fa9ddb579651b438eb43ef5ae1f756, type: 2}
+  sceneToLoad: Cowboy
 --- !u!1 &236111638
 GameObject:
   m_ObjectHideFlags: 0
@@ -645,7 +660,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 410.47, y: 13}
+  m_AnchoredPosition: {x: 410.47, y: 14}
   m_SizeDelta: {x: 824.39, y: 416.1052}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &236111640
@@ -1201,8 +1216,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 15
+  m_fontSizeBase: 15
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1341,8 +1356,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 15
+  m_fontSizeBase: 15
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1377,7 +1392,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -283.58026, y: -374.3587, z: -285.627, w: 0}
+  m_margin: {x: -283.58026, y: -374.3587, z: -296.3773, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
