@@ -620,7 +620,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61e856b8981ba0f48b47109afeafdf45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  valueRoom: {fileID: 11400000, guid: f1fa9ddb579651b438eb43ef5ae1f756, type: 2}
+  valueRoom: {fileID: 11400000, guid: 8e26587fcc85a9b40b2ff0e032d243ae, type: 2}
   sceneToLoad: Cowboy
 --- !u!1 &236111638
 GameObject:

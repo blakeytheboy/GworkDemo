@@ -12,15 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2af2ca47ebb1cd54bb791b947748799d, type: 3}
   m_Name: Puzzle1
   m_EditorClassIdentifier: 
-  description: you find yourself in an old library. Books are thrown around and bookcases
-    have been thrown to the ground. A thick layer of dust has touched every corner
-    of the room.
+  description: The old library. Books are thrown around and bookcases have been thrown
+    to the ground. A thick layer of dust has touched every corner of the room.
   roomName: puzzle room one
   exits:
   - keyString: north
-    exitDescription: There is a podium to the North of the room.
-    valueRoom: {fileID: 11400000, guid: 8e5d31a2074205046ba24bbe7267d90a, type: 2}
+    exitDescription: North is the door to the underground Saloon.
+    valueRoom: {fileID: 11400000, guid: 9b8277e178dd3474bb25da48fd28c320, type: 2}
   - keyString: west
     exitDescription: There is a staircase back to the surface to the West.
-    valueRoom: {fileID: 11400000, guid: 9f232affdf95ac949868018df396cc47, type: 2}
-  interactableObjectsInRoom: []
+    valueRoom: {fileID: 11400000, guid: 30adde89e40c5c94c9f47e6eeba8db58, type: 2}
+  interactableObjectsInRoom:
+  - {fileID: 11400000, guid: 1a26f015b8eb0e747a01bc513f513d31, type: 2}

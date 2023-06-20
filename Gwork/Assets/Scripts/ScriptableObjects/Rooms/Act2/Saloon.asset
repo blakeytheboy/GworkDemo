@@ -17,7 +17,10 @@ MonoBehaviour:
   roomName: saloon
   exits:
   - keyString: north
-    exitDescription: To the North, an odd man sits at the bar.
-    valueRoom: {fileID: 11400000, guid: f1fa9ddb579651b438eb43ef5ae1f756, type: 2}
-  interactableObjectsInRoom:
-  - {fileID: 0}
+    exitDescription: A door to the North has now opened!
+    valueRoom: {fileID: 11400000, guid: 502b402edc472b74ca3e130a417d90a6, type: 2}
+  - keyString: south
+    exitDescription: You get the feeling there is more to be found in the library...
+      (South)
+    valueRoom: {fileID: 11400000, guid: 96b96d07668694b47841e4effb4700d6, type: 2}
+  interactableObjectsInRoom: []

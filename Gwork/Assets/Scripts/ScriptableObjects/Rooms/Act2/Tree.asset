@@ -17,5 +17,5 @@ MonoBehaviour:
   exits:
   - keyString: north
     exitDescription: The path the way you came from is North.
-    valueRoom: {fileID: 11400000, guid: 9f232affdf95ac949868018df396cc47, type: 2}
+    valueRoom: {fileID: 11400000, guid: 30adde89e40c5c94c9f47e6eeba8db58, type: 2}
   interactableObjectsInRoom: []

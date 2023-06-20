@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2af2ca47ebb1cd54bb791b947748799d, type: 3}
   m_Name: WizardTower
   m_EditorClassIdentifier: 
-  description: wizard tower
-  roomName: 
+  description: "Entering the new room you feel a sense of enlightenment. Bugs sparkle
+    and colourful stars shine high above your head! \r"
+  roomName: wizardtower
   exits:
-  - keyString: south
-    exitDescription: south puzzle 3
-    valueRoom: {fileID: 11400000, guid: b09d6e45f38c5c9418f6aa3f3ff8f22f, type: 2}
+  - keyString: north
+    exitDescription: An old, disgruntled looking Wizard peers at from the East end
+      of the tower.
+    valueRoom: {fileID: 11400000, guid: 8e26587fcc85a9b40b2ff0e032d243ae, type: 2}
   interactableObjectsInRoom: []

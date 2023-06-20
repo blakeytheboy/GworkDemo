@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41d191c7de4cf149a9a59adcce45533, type: 3}
   m_Name: KnightKey
   m_EditorClassIdentifier: 
-  noun: name
+  noun: key
   description: Description in room
   interactions: []

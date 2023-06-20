@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2af2ca47ebb1cd54bb791b947748799d, type: 3}
-  m_Name: test
+  m_Name: Fight
   m_EditorClassIdentifier: 
-  description: 
-  roomName: 
+  description: A fight ensues!
+  roomName: fight
   exits: []
   interactableObjectsInRoom: []

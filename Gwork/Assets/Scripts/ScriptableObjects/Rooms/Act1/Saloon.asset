@@ -18,5 +18,5 @@ MonoBehaviour:
   exits:
   - keyString: north
     exitDescription: To the North, an odd man sits at the bar.
-    valueRoom: {fileID: 11400000, guid: f1fa9ddb579651b438eb43ef5ae1f756, type: 2}
+    valueRoom: {fileID: 11400000, guid: 8e26587fcc85a9b40b2ff0e032d243ae, type: 2}
   interactableObjectsInRoom: []

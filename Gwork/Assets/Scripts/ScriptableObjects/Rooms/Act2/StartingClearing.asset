@@ -18,8 +18,8 @@ MonoBehaviour:
   - keyString: east
     exitDescription: There appears to be a dark doorway that decends deep below the
       Earth to the East.
-    valueRoom: {fileID: 11400000, guid: 0c41d0bdbcdfdb64ab1ffb834393679e, type: 2}
+    valueRoom: {fileID: 11400000, guid: 96b96d07668694b47841e4effb4700d6, type: 2}
   - keyString: south
     exitDescription: A tree to the South makes you feel uneasy.
-    valueRoom: {fileID: 11400000, guid: 919f213e3d1d6ab44b99ef93962ac38a, type: 2}
+    valueRoom: {fileID: 11400000, guid: b6192609eedf48641866b640681cd40d, type: 2}
   interactableObjectsInRoom: []

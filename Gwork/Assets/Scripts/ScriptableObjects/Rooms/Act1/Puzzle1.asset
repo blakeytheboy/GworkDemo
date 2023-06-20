@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2af2ca47ebb1cd54bb791b947748799d, type: 3}
   m_Name: Puzzle1
   m_EditorClassIdentifier: 
-  description: you find yourself in an old library. Books are thrown around and bookcases
+  description: You find yourself in an old library. Books are thrown around and bookcases
     have been thrown to the ground. A thick layer of dust has touched every corner
     of the room.
   roomName: puzzle room one
