@@ -40,7 +40,7 @@ public class TurnBasedCombat : MonoBehaviour
 
     private void Start()
     {
-        combatLogText.text = "Entered combat!";
+        combatLogText.text = "Entered combat! Type 'Roll' to engage!";
         UpdateHealthTexts();
     }
 

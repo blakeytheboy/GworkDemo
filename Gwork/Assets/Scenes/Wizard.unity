@@ -1628,7 +1628,7 @@ MonoBehaviour:
   MinRoll: 1
   MaxRoll: 20
   playerMinMissRoll: 1
-  playerMaxMissRoll: 5
+  playerMaxMissRoll: 3
   enemyMinMissRoll: 1
   enemyMaxMissRoll: 2
   playerMinCriticalRoll: 20

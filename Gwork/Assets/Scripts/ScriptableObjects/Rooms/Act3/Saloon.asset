@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af2ca47ebb1cd54bb791b947748799d, type: 3}
+  m_Name: Saloon
+  m_EditorClassIdentifier: 
+  description: The Saloon is silent. The Cowboy's body is missing, but all of the
+    blood and damage still remains.
+  roomName: saloon
+  exits:
+  - keyString: west
+    exitDescription: A piece of wall has crumbled near the West and revealed a new
+      room.
+    valueRoom: {fileID: 11400000, guid: 0e8e9f07cf774d74cb4d6763f1b56d65, type: 2}
+  - keyString: north
+    exitDescription: To the North is the room that was once lit on fire.
+    valueRoom: {fileID: 11400000, guid: 77d31ed4204f41e4b89d72111f6b4f76, type: 2}
+  - keyString: south
+    exitDescription: The South leads to the old library.
+    valueRoom: {fileID: 11400000, guid: 3083b7c3d3cbeba44b26723e491e804b, type: 2}
+  interactableObjectsInRoom: []

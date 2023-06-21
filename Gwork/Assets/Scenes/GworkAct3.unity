@@ -606,7 +606,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0a900300db8de24e8f81cacc37ab2aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentRoom: {fileID: 11400000, guid: 9b8277e178dd3474bb25da48fd28c320, type: 2}
+  currentRoom: {fileID: 11400000, guid: 59e7b2d2f77bfc642b7a3d7d2e09b368, type: 2}
 --- !u!114 &205798128
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -614,7 +614,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 205798121}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 61e856b8981ba0f48b47109afeafdf45, type: 3}
   m_Name: 
@@ -659,7 +659,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 418.59323, y: 14}
+  m_AnchoredPosition: {x: 415.5, y: 17}
   m_SizeDelta: {x: 808.1436, y: 416.1052}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &236111640
