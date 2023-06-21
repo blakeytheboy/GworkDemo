@@ -20,4 +20,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Wizard.unity
     guid: 29a15b3a3d141bf4198a75092cf18ddf
+  - enabled: 1
+    path: Assets/Scenes/GworkAct3.unity
+    guid: c5e1265eabd75614c925454300d23262
+  - enabled: 1
+    path: Assets/Scenes/Knight.unity
+    guid: caa30488e3b4e9a4285a0d7217a5a735
+  - enabled: 1
+    path: Assets/Scenes/GworkAct4.unity
+    guid: 7d16afcc75927bc4aabf3791f0cff549
+  - enabled: 1
+    path: Assets/Scenes/Guaire.unity
+    guid: eb9f582c8b4a6bf4a8b710c26276b2f8
+  - enabled: 1
+    path: Assets/Scenes/Ending.unity
+    guid: 728fbd38c8004e34b9afeaa0a82b8491
   m_configObjects: {}

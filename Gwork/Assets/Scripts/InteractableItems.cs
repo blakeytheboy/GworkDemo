@@ -129,6 +129,7 @@ public class InteractableItems : MonoBehaviour
         {
             controller.LogStringWithReturn("There is no " + nounToUse + " in your inventory to use");
         }
+        controller.LogStringWithReturn("Hmm that didn't work. Try the commands: go, take, examine, or use");
     }
 
 }
