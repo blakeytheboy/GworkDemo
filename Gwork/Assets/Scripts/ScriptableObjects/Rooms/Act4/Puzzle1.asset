@@ -18,8 +18,8 @@ MonoBehaviour:
   exits:
   - keyString: north
     exitDescription: North is the door to the underground Saloon.
-    valueRoom: {fileID: 11400000, guid: fbafa4d4f346c7c43898e3233ff38b9b, type: 2}
+    valueRoom: {fileID: 11400000, guid: 3b3a518b2743bd844b9d884ca1563a23, type: 2}
   - keyString: west
     exitDescription: There is a staircase back to the surface to the West.
-    valueRoom: {fileID: 11400000, guid: f5952c63632320e4686693ef100569d3, type: 2}
+    valueRoom: {fileID: 11400000, guid: 9d5759a955eb0cc44870812c45719497, type: 2}
   interactableObjectsInRoom: []

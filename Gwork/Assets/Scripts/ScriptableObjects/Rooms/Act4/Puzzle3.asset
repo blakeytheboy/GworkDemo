@@ -10,14 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2af2ca47ebb1cd54bb791b947748799d, type: 3}
-  m_Name: Crypt
+  m_Name: Puzzle3
   m_EditorClassIdentifier: 
-  description: Walking down the wet staircase, your feet echo through the endless
-    halls.
-  roomName: crypt
+  description: The room smells of smoke.
+  roomName: puzzle3
   exits:
-  - keyString: east
-    exitDescription: To the East you notice an oppressive looking Knight in armour
-      standing before you!
-    valueRoom: {fileID: 11400000, guid: 8e26587fcc85a9b40b2ff0e032d243ae, type: 2}
+  - keyString: south
+    exitDescription: The Saloon doors are to the South.
+    valueRoom: {fileID: 11400000, guid: 3b3a518b2743bd844b9d884ca1563a23, type: 2}
+  - keyString: north
+    exitDescription: To the North, the Wizard tower stands lifeless.
+    valueRoom: {fileID: 11400000, guid: 3b3a518b2743bd844b9d884ca1563a23, type: 2}
   interactableObjectsInRoom: []

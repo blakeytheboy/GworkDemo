@@ -18,12 +18,14 @@ MonoBehaviour:
   exits:
   - keyString: north
     exitDescription: To the North is the room that was once lit on fire.
-    valueRoom: {fileID: 11400000, guid: 77d31ed4204f41e4b89d72111f6b4f76, type: 2}
+    valueRoom: {fileID: 11400000, guid: 4426ede85937dbd4a975e6d2055fd7f7, type: 2}
+  - keyString: east
+    exitDescription: A magical door has manifested to the East.
+    valueRoom: {fileID: 11400000, guid: c9dee97ec58a15546b955471fafd88fd, type: 2}
   - keyString: south
     exitDescription: The South leads to the old library.
-    valueRoom: {fileID: 11400000, guid: 3083b7c3d3cbeba44b26723e491e804b, type: 2}
+    valueRoom: {fileID: 11400000, guid: a42dc7b04ec6adc41a098828e9364527, type: 2}
   - keyString: west
-    exitDescription: A piece of wall has crumbled near the West and revealed a new
-      room.
-    valueRoom: {fileID: 11400000, guid: 0e8e9f07cf774d74cb4d6763f1b56d65, type: 2}
+    exitDescription: The hole in the wall is to the West.
+    valueRoom: {fileID: 11400000, guid: eddea7ce7cdcfcf4584eac9688ba839e, type: 2}
   interactableObjectsInRoom: []

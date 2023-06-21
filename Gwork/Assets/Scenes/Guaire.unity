@@ -633,7 +633,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 236.94237
+  orthographic size: 237.40988
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1624,25 +1624,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerBaseDamage: 10
-  enemyBaseDamage: 10
+  enemyBaseDamage: 15
   MinRoll: 1
   MaxRoll: 20
   playerMinMissRoll: 1
-  playerMaxMissRoll: 1
+  playerMaxMissRoll: 5
   enemyMinMissRoll: 1
-  enemyMaxMissRoll: 1
+  enemyMaxMissRoll: 8
   playerMinCriticalRoll: 20
   playerMaxCriticalRoll: 20
-  enemyMinCriticalRoll: 20
+  enemyMinCriticalRoll: 17
   enemyMaxCriticalRoll: 20
   enemyDialogues: []
   playerHealth: 100
-  enemyHealth: 100
+  enemyHealth: 150
   inputField: {fileID: 1775734804}
   combatLogText: {fileID: 485188774}
   playerHealthText: {fileID: 623756850}
   enemyHealthText: {fileID: 226955081}
-  sceneToLoad: GworkAct2
+  sceneToLoad: Ending
 --- !u!4 &1945051208
 Transform:
   m_ObjectHideFlags: 0
@@ -1670,7 +1670,7 @@ GameObject:
   - component: {fileID: 1973596193}
   - component: {fileID: 1973596192}
   m_Layer: 5
-  m_Name: Cowboy
+  m_Name: Knight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1716,7 +1716,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: bb301e0f4d7283c46998744feb983a70, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 068054988e2db0045a33f1374ea61e48, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

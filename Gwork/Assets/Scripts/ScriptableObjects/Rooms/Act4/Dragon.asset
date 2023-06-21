@@ -12,16 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2af2ca47ebb1cd54bb791b947748799d, type: 3}
   m_Name: Dragon
   m_EditorClassIdentifier: 
-  description: Just an ordinary room. There is nothing special here. You shouldn't
-    look any deeper into this room, it's meaning, or significance. It is pointless,
-    not everything has to have meaning. Just... just keep going where you're headed.
+  description: You are in an ordinary room.
   roomName: dragon
   exits:
   - keyString: south
     exitDescription: A wooden door to the South hangs open, inviting you deep below
       the Dungeon, shallowing all and any light the Saloon tries to reveal.
     valueRoom: {fileID: 11400000, guid: 69bee90a8f227644880233086eede33b, type: 2}
-  - keyString: 
-    exitDescription: Rubble has collapsed behind you. A way back is impossible.
-    valueRoom: {fileID: 0}
+  - keyString: east
+    exitDescription: East is back into the Saloon.
+    valueRoom: {fileID: 11400000, guid: 3b3a518b2743bd844b9d884ca1563a23, type: 2}
   interactableObjectsInRoom: []

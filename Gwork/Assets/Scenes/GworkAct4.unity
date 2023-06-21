@@ -464,7 +464,7 @@ MonoBehaviour:
   m_CaretWidth: 1
   m_ReadOnly: 0
   m_RichText: 1
-  m_GlobalFontAsset: {fileID: 11400000, guid: 8173f5a4f6f2f5c49965658543ec447f, type: 2}
+  m_GlobalFontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_OnFocusSelectAll: 1
   m_ResetOnDeActivation: 1
   m_RestoreOriginalTextOnEscape: 1
@@ -560,7 +560,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 205798121}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 552, y: 259, z: 0}
+  m_LocalPosition: {x: 403, y: 259, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -606,7 +606,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0a900300db8de24e8f81cacc37ab2aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentRoom: {fileID: 11400000, guid: 9b8277e178dd3474bb25da48fd28c320, type: 2}
+  currentRoom: {fileID: 11400000, guid: b68e4ed67181fb743bd364a6e07424cb, type: 2}
 --- !u!114 &205798128
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -620,7 +620,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valueRoom: {fileID: 11400000, guid: 8e26587fcc85a9b40b2ff0e032d243ae, type: 2}
-  sceneToLoad: Wizard
+  sceneToLoad: Guaire
 --- !u!1 &236111638
 GameObject:
   m_ObjectHideFlags: 0
@@ -659,7 +659,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 422, y: 14}
+  m_AnchoredPosition: {x: 415.5, y: 17}
   m_SizeDelta: {x: 808.1436, y: 416.1052}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &236111640

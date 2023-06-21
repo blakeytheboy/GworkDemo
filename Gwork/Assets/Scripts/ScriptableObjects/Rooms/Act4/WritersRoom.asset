@@ -10,14 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2af2ca47ebb1cd54bb791b947748799d, type: 3}
-  m_Name: Crypt
+  m_Name: WritersRoom
   m_EditorClassIdentifier: 
-  description: Walking down the wet staircase, your feet echo through the endless
-    halls.
-  roomName: crypt
+  description: Somehow travelling the way you came, puts you in a new room! It appears
+    you are in a writers room?
+  roomName: writer
   exits:
-  - keyString: east
-    exitDescription: To the East you notice an oppressive looking Knight in armour
-      standing before you!
+  - keyString: north
+    exitDescription: A man is slumped in his chair, frantically writing.
     valueRoom: {fileID: 11400000, guid: 8e26587fcc85a9b40b2ff0e032d243ae, type: 2}
+  - keyString: 
+    exitDescription: '"You shouldn''t be here yet! I need more time!"'
+    valueRoom: {fileID: 0}
   interactableObjectsInRoom: []

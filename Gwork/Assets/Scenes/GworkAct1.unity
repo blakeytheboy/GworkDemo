@@ -660,7 +660,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 410.47, y: 14}
+  m_AnchoredPosition: {x: 422, y: 14}
   m_SizeDelta: {x: 824.39, y: 416.1052}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &236111640
@@ -1191,8 +1191,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Enter Text...\u200B"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8173f5a4f6f2f5c49965658543ec447f, type: 2}
+  m_sharedMaterial: {fileID: -7513485499895692951, guid: 8173f5a4f6f2f5c49965658543ec447f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1331,8 +1331,8 @@ MonoBehaviour:
     text sample text sample text sample text sample text sample text sample text
     sample text sample text sample text '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8173f5a4f6f2f5c49965658543ec447f, type: 2}
+  m_sharedMaterial: {fileID: -7513485499895692951, guid: 8173f5a4f6f2f5c49965658543ec447f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

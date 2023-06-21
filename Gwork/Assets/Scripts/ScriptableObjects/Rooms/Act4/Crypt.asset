@@ -10,9 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2af2ca47ebb1cd54bb791b947748799d, type: 3}
-  m_Name: Puzzle2
+  m_Name: Crypt
   m_EditorClassIdentifier: 
-  description: 
-  roomName: 
-  exits: []
+  description: The Knight lies beaten to the ground. His armour glistens red.
+  roomName: crypt
+  exits:
+  - keyString: west
+    exitDescription: Back West you can see the light of the Saloon from the stairway
+      - the rubble must have cleared.
+    valueRoom: {fileID: 11400000, guid: eddea7ce7cdcfcf4584eac9688ba839e, type: 2}
   interactableObjectsInRoom: []

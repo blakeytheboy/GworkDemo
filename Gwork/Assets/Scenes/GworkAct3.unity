@@ -464,7 +464,7 @@ MonoBehaviour:
   m_CaretWidth: 1
   m_ReadOnly: 0
   m_RichText: 1
-  m_GlobalFontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_GlobalFontAsset: {fileID: 11400000, guid: 8173f5a4f6f2f5c49965658543ec447f, type: 2}
   m_OnFocusSelectAll: 1
   m_ResetOnDeActivation: 1
   m_RestoreOriginalTextOnEscape: 1
@@ -620,7 +620,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valueRoom: {fileID: 11400000, guid: 8e26587fcc85a9b40b2ff0e032d243ae, type: 2}
-  sceneToLoad: Wizard
+  sceneToLoad: Knight
 --- !u!1 &236111638
 GameObject:
   m_ObjectHideFlags: 0
@@ -1190,8 +1190,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Enter Text...\u200B"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8173f5a4f6f2f5c49965658543ec447f, type: 2}
+  m_sharedMaterial: {fileID: -7513485499895692951, guid: 8173f5a4f6f2f5c49965658543ec447f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1330,8 +1330,8 @@ MonoBehaviour:
     text sample text sample text sample text sample text sample text sample text
     sample text sample text sample text '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8173f5a4f6f2f5c49965658543ec447f, type: 2}
+  m_sharedMaterial: {fileID: -7513485499895692951, guid: 8173f5a4f6f2f5c49965658543ec447f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
