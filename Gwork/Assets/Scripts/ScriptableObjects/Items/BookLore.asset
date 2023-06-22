@@ -12,26 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41d191c7de4cf149a9a59adcce45533, type: 3}
   m_Name: BookLore
   m_EditorClassIdentifier: 
-  noun: booklore
+  noun: book
   description: A blue book has manifested in the middle of the room.
   interactions:
   - inputAction: {fileID: 11400000, guid: 8a889fe39e523cc40a172ce81f2418c2, type: 2}
-    textResponse: 'The book speaks of nonsensical goblin speak, but what really captures
-      your eye is a page that appears to be directions.
-
-
-      East East
-
-      South
-      South
-
-      West North
-
-      West South
-
-      South East
-
-      South South
-
-'
+    textResponse: It's not real. It is literally all a game. Guaire hasn't finished
+      this dungeon yet, nor has he even finished the game! That's why no one talks,
+      the inventory system is doesn't function, and why the art looks like placeholders!
+      The only way out is to KILL Guaire! I am here as well, I remain nearby. Keep
+      progressing as normal.
     actionResponse: {fileID: 0}

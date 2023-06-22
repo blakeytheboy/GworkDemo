@@ -59,7 +59,7 @@ public class GameController : MonoBehaviour
     void UnpackRoom() 
     {
         roomNavigation.UnpackExitsInRoom(); //call roomNav to unpack all the exits
-        PrepareObjectsToTakeOrExamine(roomNavigation.currentRoom);
+        PrepareObjectsToTakeOrExamine(roomNavigation.currentRoom); //prepare interactable objects in the room
     }
 
     void PrepareObjectsToTakeOrExamine(Room currentRoom)
@@ -67,10 +67,12 @@ public class GameController : MonoBehaviour
         for (int i = 0; i < currentRoom.interactableObjectsInRoom.Length; i++)
         {
             string descriptionNotInInventory = interactableItems.GetObjectsNotInInventory(currentRoom, i);
-            if (descriptionNotInInventory != null)
+            //if it finds an object not in the inventory, it will store the description in the string
+            if (descriptionNotInInventory != null) //does not equal null
             {
                 interactionDescriptionsInRoom.Add(descriptionNotInInventory);
             }
+            //one loop to get all the interacble objects, then on each of those objects looping over all their interactions \/
 
             InteractableObject interactableInRoom = currentRoom.interactableObjectsInRoom[i];
 
@@ -78,8 +80,10 @@ public class GameController : MonoBehaviour
             {
                 Interaction interaction = interactableInRoom.interactions[j];
                 if (interaction.inputAction.keyWord == "examine")
+                    //check against go
                 {
                     interactableItems.examineDictionary.Add(interactableInRoom.noun, interaction.textResponse);
+                    //add object (skull e.g.) then player will get back interaction response
                 }
 
                 if (interaction.inputAction.keyWord == "take")
@@ -93,11 +97,14 @@ public class GameController : MonoBehaviour
     public string TestVerbDictionaryWithNoun(Dictionary<string, string> verbDictionary, string verb, string noun)
     {
         if (verbDictionary.ContainsKey(noun))
+            //is the noun we're looking for in the examine dictionary?
         {
             return verbDictionary[noun];
+            //if it is, then return the value stored
         }
 
         return "You can't " + verb + " " + noun;
+        //if the verb is unaplicable to the noun (the item doesnt exist) then it will spit this out
     }
 
     void ClearCollectionsForNewRoom() //will clear everything from the previous place, so the player doesnt encounter them again

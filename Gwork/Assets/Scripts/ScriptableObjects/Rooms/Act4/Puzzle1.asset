@@ -22,4 +22,5 @@ MonoBehaviour:
   - keyString: west
     exitDescription: There is a staircase back to the surface to the West.
     valueRoom: {fileID: 11400000, guid: 9d5759a955eb0cc44870812c45719497, type: 2}
-  interactableObjectsInRoom: []
+  interactableObjectsInRoom:
+  - {fileID: 11400000, guid: 5e25a108725374e48baaa775d107d115, type: 2}

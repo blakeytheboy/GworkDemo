@@ -188,8 +188,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 22
+  m_fontSizeBase: 22
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: -103.76514, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -255,7 +255,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 323.02, y: 208.9607}
+  m_AnchoredPosition: {x: 570, y: 344}
   m_SizeDelta: {x: 176.6236, y: 45.0786}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &228890507
@@ -699,7 +699,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -323.02, y: 208.9607}
+  m_AnchoredPosition: {x: -569, y: 337}
   m_SizeDelta: {x: 176.6236, y: 45.0786}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &623756849
@@ -757,8 +757,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 22
+  m_fontSizeBase: 22
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -793,7 +793,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: -124.51868, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -827,7 +827,7 @@ RectTransform:
   m_GameObject: {fileID: 638116765}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.6453, y: 1.6453, z: 1.6453}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2021052553}
@@ -837,7 +837,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 216.69133, y: 0.4662}
+  m_AnchoredPosition: {x: 369, y: -10}
   m_SizeDelta: {x: 436.8326, y: 389.0377}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &638116767
@@ -1173,8 +1173,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 15
-  m_fontSizeBase: 15
+  m_fontSize: 22
+  m_fontSizeBase: 22
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1260,7 +1260,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -8.938498, y: -206.8}
+  m_AnchoredPosition: {x: -261, y: -347}
   m_SizeDelta: {x: 677.0502, y: 43.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1775734802
@@ -1630,12 +1630,20 @@ MonoBehaviour:
   playerMinMissRoll: 1
   playerMaxMissRoll: 1
   enemyMinMissRoll: 1
-  enemyMaxMissRoll: 1
+  enemyMaxMissRoll: 5
   playerMinCriticalRoll: 20
   playerMaxCriticalRoll: 20
   enemyMinCriticalRoll: 20
   enemyMaxCriticalRoll: 20
-  enemyDialogues: []
+  enemyDialogues:
+  - rollValues: 00000000
+    dialogueLine: 1
+  - rollValues: 0000000000000000
+    dialogueLine: 2
+  - rollValues: 000000000000000000000000
+    dialogueLine: 3
+  - rollValues: 00000000000000000000000000000000
+    dialogueLine: 4
   playerHealth: 100
   enemyHealth: 100
   inputField: {fileID: 1775734804}
@@ -1685,7 +1693,7 @@ RectTransform:
   m_GameObject: {fileID: 1973596190}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.8308, y: 1.8308, z: 1.8308}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 228890508}
@@ -1693,7 +1701,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 208, y: 0.0000038147}
+  m_AnchoredPosition: {x: 350, y: 0.0000038147}
   m_SizeDelta: {x: 305.7135, y: 305.7135}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1973596192

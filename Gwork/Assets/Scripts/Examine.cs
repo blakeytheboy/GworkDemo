@@ -8,5 +8,6 @@ public class Examine : InputAction
     public override void RespondToInput(GameController controller, string[] separatedInputWords)
     {
         controller.LogStringWithReturn(controller.TestVerbDictionaryWithNoun(controller.interactableItems.examineDictionary, separatedInputWords[0], separatedInputWords[1]));
+        //log 'you cant verb + noun' or our text response from our interactable object
     }
 }

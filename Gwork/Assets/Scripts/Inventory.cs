@@ -9,4 +9,5 @@ public class Inventory : InputAction
     {
         controller.interactableItems.DisplayInventory();
     }
+    //when the players calls upon inventory, this displays the invetory in a string
 }

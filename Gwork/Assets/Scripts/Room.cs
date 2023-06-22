@@ -11,7 +11,7 @@ public class Room : ScriptableObject
     [TextArea] //display as a bigger text entry box
     public string description;  //what the room will display when the player walks in
     public string roomName; //roomname, used to check where player is and item to be used
-    public Exit[] exits; 
-    public InteractableObject[] interactableObjectsInRoom;
+    public Exit[] exits; //and array of exits out of the room
+    public InteractableObject[] interactableObjectsInRoom; //an array of objects in the room
 
 }
