@@ -9,5 +9,5 @@ public abstract class InputAction : ScriptableObject
     public string keyWord;
 
     public abstract void RespondToInput(GameController controller, string[] separatedInputWords);
-    //will create an array of input words, passed in from the input script
+    //will create an array of input words, passed in from the text input script
 }
